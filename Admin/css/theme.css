@@ -275,7 +275,6 @@ section {
 /*Page Objects*/
 .page-wrapper {
     overflow: hidden;
-    background: #e5e5e5;
     padding-bottom: 8vh;
 }
 
@@ -318,6 +317,7 @@ section {
 .main-content {
     padding-top: 116px;
     min-height: 100vh;
+    background-color: ivory;
 }
 
 @media (max-width: 991px) {
@@ -378,6 +378,9 @@ section {
         -ms-flex-direction: column;
         flex-direction: column;
     }
+}
+#adding-form .form-group{
+    margin-left: 4%;
 }
 
 .login-form .form-group label {
@@ -1622,6 +1625,7 @@ section {
     height: -webkit-calc(100vh - 75px);
     height: -moz-calc(100vh - 75px);
     height: calc(100vh - 75px);
+    background-color: ghostwhite;
 }
 
 .navbar-sidebar {
@@ -3102,6 +3106,7 @@ section {
     -moz-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 767px) {
@@ -4347,6 +4352,10 @@ section {
     border-bottom: 1px solid #f2f2f2;
     padding: 12px 6px;
     vertical-align: middle;
+}
+
+.table td{
+    vertical-align: inherit;
 }
 
 .table-data {

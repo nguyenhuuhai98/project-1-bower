@@ -60,7 +60,7 @@ span.x4:before,i.x4:before {
 }
 
 .fullheight {
-    height: 100vh;
+    height: 80vh;
 }
 
 .mb20 {
@@ -96,8 +96,8 @@ span.x4:before,i.x4:before {
 }
 
 .section-inner {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .section-inner-60 {
@@ -230,7 +230,7 @@ span.x4:before,i.x4:before {
 
 .hover-effect .hover-overlay {
     background-color: rgba(0,0,0,0.1);
-    opacity: 1;    
+    opacity: 1;
     color: #fff;
 }
 
@@ -250,7 +250,7 @@ span.x4:before,i.x4:before {
 
 #home.fullheight.max-600, #home .fullheight.max-600 {
     max-height: 600px;
-} 
+}
 
 .single-page-hero {
     min-height: 380px;
@@ -299,6 +299,9 @@ span.x4:before,i.x4:before {
     color: #FFF;
     margin-bottom: 5%;
 }
+#nav-justified {
+    margin-bottom: 30px
+}
 
 .nav-wrapper {
     background-color: transparent;
@@ -339,7 +342,7 @@ span.x4:before,i.x4:before {
 
 .nav>li>a:focus {
     background-color: transparent;
-    color: #fff; 
+    color: #fff;
 }
 
 .dropdown-menu {
@@ -548,7 +551,7 @@ transform: scale(0.8);
 
 .btn-primary:hover {
     background-color: #222;
-    border-color: #222;   
+    border-color: #222;
 }
 
 .btn-primary.btn-outlined {
@@ -686,6 +689,14 @@ textarea.form-control {
     font-style: italic;
 }
 
+.section-search-title {
+    font-family: 'Cardo', serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    opacity: 1;
+    font-style: italic;
+}
+
 #band-member-1 {
     background-image: url(assets/images/band-member-1.jpg);
     background-repeat: no-repeat;
@@ -772,7 +783,7 @@ textarea.form-control {
     height: 100%;
 }
 
-.team-item .team-image {  
+.team-item .team-image {
     height: 100%;
     display: block;
     position: relative;

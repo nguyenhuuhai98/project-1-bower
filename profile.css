@@ -836,6 +836,9 @@ body{margin-top:20px;}
     }
 }
 
+#search-content {
+    border: 0px;
+}
 
 .tab-content {
     border: 1px solid #C5D0DC;
